@@ -20,7 +20,6 @@ function startTime() {
     var curYear = today.getFullYear();
     var date = curWeekDay+", "+curDay+" "+curMonth+" "+curYear;
     document.getElementById("date").innerHTML = date;
-    
     var time = setTimeout(function(){ startTime() }, 500);
 }
 function checkTime(i) {
