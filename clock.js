@@ -11,6 +11,7 @@ function startTime() {
     min = checkTime(min);
     sec = checkTime(sec);
     document.getElementById("clock").innerHTML = hr + ":" + min + ":" + sec + " " + ap;
+    
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var curWeekDay = days[today.getDay()];
